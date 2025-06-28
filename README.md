@@ -22,14 +22,6 @@ A high-performance Python implementation of the multi-directional Enhanced Lee f
 pip install numpy numba rioxarray pathlib argparse
 ```
 
-### Dependencies
-
-- `numpy` - Numerical computations
-- `numba` - Just-in-time compilation for performance
-- `rioxarray` - Geospatial raster I/O
-- `pathlib` - Path handling
-- `argparse` - Command-line interface
-
 ## Usage
 
 ### Command Line Interface
@@ -54,7 +46,7 @@ python multidirectional_lee_filter.py -i input.tif -o output.tif \
     --noise-abs 0.1 --noise-rel 1.2 --nodata -999
 ```
 
-### Python API
+### In Python
 
 ```python
 from multidirectional_lee_filter import multidirectional_lee_filter
